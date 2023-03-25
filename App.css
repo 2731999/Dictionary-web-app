@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.container1 {
+    background-color: antiquewhite;
+    width: 90vmin;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    padding: 120px 100px;
+    border-radius: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.411);
+
+}
+
+.searchbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbox input {
+    background-color: antiquewhite;
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid gray;
+    font-size: 20px;
+}
+
+.searchbtn {
+    background-color: blueviolet;
+    color: white;
+    width: 25%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.searchbtn:hover{
+    background-color: rgb(102, 0, 197);
+    cursor: pointer;
+}
+
+.result {
+    position: relative;
+}
+
+.result h3 {
+    font-size: 30px;
+    color: darkslategray;
+}
+.word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.btn2{
+    border: none;
+    outline: none;
+    background-color: antiquewhite;
+    color: darkslategray;
+    font-size: 20px;
+    /* visibility: hidden; */
+}
+.btn2:hover{
+    color: gray;
+    cursor: pointer;
+}
+.details{
+    display: flex;
+    color: rgb(131, 130, 130);
+    gap: 10px;
+    font-size: 15px;
+    margin: 5px;
+}
+.meaning{
+    color: gray;
+    margin: 10px;
+}
+.example{
+    color: gray;
+    font-style: italic;
+    border-left: 3px solid blueviolet;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.error{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 100px;
+}
